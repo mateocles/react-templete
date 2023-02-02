@@ -1,0 +1,21 @@
+.button {
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__login {
+		background: #4599d4;
+	}
+	&__forum {
+		background: white !important;
+		border: none;
+		width: 11.25rem;
+		span {
+			color: #eda212;
+		}
+	}
+	span {
+		font-size: large;
+	}
+}
+
